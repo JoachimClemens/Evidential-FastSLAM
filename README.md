@@ -10,7 +10,7 @@ Joachim Clemens, Thomas Reineking, Tobias Kluth
 The Evidential FastSLAM algorithm represents the world using a grid-map and utilizes a Rao-Blackwellized particle filter in order to approximate the joint distribution of path and map.
 In contrast to other grid-map-based SLAM approaches, a belief function is used instead of a single occupancy probability to model the state of a grid cell.
 It allows one to assign mass not only to the singletons of the hypotheses space, but also to all subsets.
-As a consequence, the algorithm is able to express the uncertainty in the map more explicit and one can distinguish between different uncertainty dimension that are indistinguishable in a probabilistic grid map.
+As a consequence, the algorithm is able to express the uncertainty in the map more explicitly and one can distinguish between different uncertainty dimensions that are indistinguishable in a probabilistic grid map.
 This additional information can be used for navigation tasks like path planning or active exploration.
 
 ### Paper Describing the Approach
@@ -24,7 +24,7 @@ Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM
 <image src="/images/cartesium.png" alt="Cartesium" height="200px" />
 
 The color coding is red for occupied, green for free, blue for the superset (corresponding to unknown areas), and black for empty set (corresponding to conflicts).
-The estimated bath is shown in yellow.
+The estimated path is shown in yellow.
 
 ### Software Requirements
 
@@ -38,7 +38,7 @@ Furthermore, the following software is required:
 
 ### Compilation and Running
 
-Once all required software is installed, the code con be compiled and executed as follows:
+Once all required software is installed, the code can be compiled and executed as follows:
 
 ```
 git clone https://github.com/JoachimClemens/Evidential-FastSLAM.git
@@ -56,4 +56,4 @@ Datasets are available e.g. at http://cres.usc.edu/radishrepository/.
 
 ### License Information
 
-Evidential FastSLAM is published under the BSD License. The [LICENSE](LICENSE) for further information.
+Evidential FastSLAM is published under the BSD License. See [LICENSE](LICENSE) for further information.
