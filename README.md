@@ -56,4 +56,4 @@ Datasets are available e.g. at http://cres.usc.edu/radishrepository/.
 
 ### License Information
 
-Evidential FastSLAM is published under the BSD License. The LICENSE for further information.
+Evidential FastSLAM is published under the BSD License. The [LICENSE](LICENSE) for further information.
