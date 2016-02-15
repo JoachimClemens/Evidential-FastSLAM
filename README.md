@@ -20,8 +20,8 @@ Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM
 
 ### Example Maps
 
-![Intel](/images/intel.png)
-![Cartesium](/images/cartesium.png)
+<image src="/images/intel.png" alt="Intel" height="200px" />
+<image src="/images/cartesium.png" alt="Cartesium" height="200px" />
 
 The color coding is red for occupied, green for free, blue for the superset (corresponding to unknown areas), and black for empty set (corresponding to conflicts).
 The estimated bath is shown in yellow.
