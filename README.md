@@ -53,7 +53,7 @@ cd ../bin
 
 The input file has to be in CARMEN log format.
 Be sure that you configure the sensor parameters with `--laser-start-angle` (default: -90.0) and `--laser-angular-res` (default: 1.0) correctly, which are both given in degrees.
-Datasets are available e.g. at http://cres.usc.edu/radishrepository/ or http://www2.informatik.uni-freiburg.de/~stachnis/datasets.html, where one of the most popular datasets might be the one of the Intel lab provided by Dirk Hähnel (http://www2.informatik.uni-freiburg.de/~stachnis/datasets/datasets/intel-lab/intel.log.gz).
+Datasets are available e.g. at [Radish](http://cres.usc.edu/radishrepository/) or from [C. Stachniss](http://www2.informatik.uni-freiburg.de/~stachnis/datasets.html), where one of the most popular datasets might be the one of the Intel lab provided by Dirk Hähnel (http://www2.informatik.uni-freiburg.de/~stachnis/datasets/datasets/intel-lab/intel.log.gz).
 
 
 ### License Information
