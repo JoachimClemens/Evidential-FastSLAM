@@ -20,6 +20,8 @@ Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM
 
 ### Example Maps
 
+Resulting maps for the Intel Research Lab (raw dataset recorded by Dirk Hähnel) and Cartesium building, University of Bremen (raw dataset recorded by Cyrill Stachniss):
+
 <image src="/images/intel.png" alt="Intel" height="200px" />
 <image src="/images/cartesium.png" alt="Cartesium" height="200px" />
 
@@ -53,7 +55,7 @@ cd ../bin
 
 The input file has to be in CARMEN log format.
 Be sure that you configure the sensor parameters with `--laser-start-angle` (default: -90.0) and `--laser-angular-res` (default: 1.0) correctly, which are both given in degrees.
-Datasets are available e.g. at [Radish](http://cres.usc.edu/radishrepository/) or from [C. Stachniss](http://www2.informatik.uni-freiburg.de/~stachnis/datasets.html), while one of the most popular datasets might be the one of the Intel lab provided by Dirk Hähnel (http://www2.informatik.uni-freiburg.de/~stachnis/datasets/datasets/intel-lab/intel.log.gz).
+Datasets are available e.g. at [Radish](http://cres.usc.edu/radishrepository/) or from [Cyrill Stachniss](http://www2.informatik.uni-freiburg.de/~stachnis/datasets.html), while one of the most popular datasets might be the one of the Intel Research Lab recorded by Dirk Hähnel (http://www2.informatik.uni-freiburg.de/~stachnis/datasets/datasets/intel-lab/intel.log.gz, see above).
 
 
 ### License Information
