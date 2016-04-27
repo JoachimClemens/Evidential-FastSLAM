@@ -54,7 +54,7 @@ public:
 	using 	DequeDouble				= std::deque<double>;
 	using	NumMeasurementsFunction	= std::function<uint64_t()>;
 
-			NeffView( QWidget *parent = nullptr, Qt::WFlags f = 0 );
+			NeffView( QWidget *parent = nullptr, Qt::WindowFlags f = 0 );
 	virtual ~NeffView();
 
 	void	start( int drawInterval, int pollInterval = 10 );

@@ -48,7 +48,7 @@
 namespace efs {
 
 template<typename SLAM>
-MapView2D<SLAM>::MapView2D( QWidget *parent, Qt::WFlags f ) :
+MapView2D<SLAM>::MapView2D( QWidget *parent, Qt::WindowFlags f ) :
 	MapView2DBase( parent, f ),
 	m_slam( nullptr )
 {

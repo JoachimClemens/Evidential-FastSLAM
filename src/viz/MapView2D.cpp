@@ -43,7 +43,7 @@
 
 namespace efs {
 
-MapView2DBase::MapView2DBase( QWidget * parent,	Qt::WFlags f ) :
+MapView2DBase::MapView2DBase( QWidget * parent,	Qt::WindowFlags f ) :
 		QWidget(parent, f),
 		m_timer( 0 ),
 		m_pixmap( new QPixmap( 500, 500 ) ),

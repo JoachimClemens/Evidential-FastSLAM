@@ -44,7 +44,7 @@
 
 namespace efs {
 
-NeffView::NeffView(  QWidget *parent, Qt::WFlags f  ) :
+NeffView::NeffView(  QWidget *parent, Qt::WindowFlags f  ) :
 	QWidget( parent, f ),
 	m_autoscale( false ),
 	m_timer( 0 ),

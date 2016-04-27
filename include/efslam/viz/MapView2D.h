@@ -54,7 +54,7 @@ class MapView2DBase : public QWidget {
 Q_OBJECT
 
 public:
-					MapView2DBase( QWidget *parent = nullptr, Qt::WFlags f = 0 );
+					MapView2DBase( QWidget *parent = nullptr, Qt::WindowFlags f = 0 );
 	virtual			~MapView2DBase();
 
 public slots:

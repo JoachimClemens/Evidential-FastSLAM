@@ -1,4 +1,4 @@
-/* This file was automatically generated during make process on Mon Feb 15 11:27:49 CET 2016 */
+/* This file was automatically generated during make process on Wed Apr 27 10:44:58 CEST 2016 */
 /* All changes will be overwritten! */
 
 #ifndef _VERSION_INFO__H
@@ -6,10 +6,10 @@
 
 const char *versionStr = "";
 
-const char *buildDateStr = "2016-02-15 11:27:49 +0100";
+const char *buildDateStr = "2016-04-27 10:44:58 +0200";
 
-const char *commitHashStr = "bc96e8d3f639dff79637bb5f9bcf4ae1844371cc";
-const char *commitDateStr = "2015-11-25 14:02:30 +0100";
+const char *commitHashStr = "d1994d0d3d071ee15504f0e5cd1eb140372e6201";
+const char *commitDateStr = "2016-02-16 09:03:14 +0100";
 
 const char *branchNameStr = "master";
 
