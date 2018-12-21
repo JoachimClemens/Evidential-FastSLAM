@@ -7,7 +7,7 @@ Joachim Clemens, Thomas Reineking, Tobias Kluth
 
 ### Description 
 
-The Evidential FastSLAM algorithm represents the world using a grid-map and utilizes a Rao-Blackwellized particle filter in order to approximate the joint distribution of path and map.
+The Evidential FastSLAM algorithm represents the world using a grid map and utilizes a Rao-Blackwellized particle filter in order to approximate the joint distribution of path and map.
 In contrast to other grid-map-based SLAM approaches, a belief function is used instead of a single occupancy probability to model the state of a grid cell.
 It allows one to assign mass not only to the singletons of the hypotheses space, but also to all subsets.
 As a consequence, the algorithm is able to express the uncertainty in the map more explicitly and one can distinguish between different uncertainty dimensions that are indistinguishable in a probabilistic grid map.
@@ -15,7 +15,7 @@ This additional information can be used for navigation tasks like path planning 
 
 ### Paper Describing the Approach
 
-Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM, path planning, and active exploration*, International Journal of Approximate Reasoning, in press, 2016, [doi:10.1016/j.ijar.2016.02.003](http://dx.doi.org/10.1016/j.ijar.2016.02.003).
+Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM, path planning, and active exploration*, International Journal of Approximate Reasoning, 73:1-26, 2016, [doi:10.1016/j.ijar.2016.02.003](http://dx.doi.org/10.1016/j.ijar.2016.02.003).
 
 
 ### Example Maps
