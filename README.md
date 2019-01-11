@@ -1,5 +1,5 @@
 # Evidential FastSLAM
-An evidential approach to Simultaneous Localization and Mapping
+An evidential approach to simultaneous localization and mapping
 
 ### Authors
 
@@ -15,7 +15,7 @@ This additional information can be used for navigation tasks like path planning 
 
 ### Paper Describing the Approach
 
-Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM, path planning, and active exploration*, International Journal of Approximate Reasoning, 73:1-26, 2016, [doi:10.1016/j.ijar.2016.02.003](http://dx.doi.org/10.1016/j.ijar.2016.02.003).
+Joachim Clemens, Thomas Reineking, Tobias Kluth, *An evidential approach to SLAM, path planning, and active exploration*, International Journal of Approximate Reasoning, volume 73, 2016, pages 1-26, [doi:10.1016/j.ijar.2016.02.003](http://dx.doi.org/10.1016/j.ijar.2016.02.003).
 
 
 ### Example Maps
